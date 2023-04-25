@@ -1,9 +1,13 @@
+import nltk
 from nltk.chat.util import Chat, reflections
+
+#welcome statement that prints at the beginning of the program
+print("Welcome! How may I assist you today?")
 
 #dictionary to capture and match the user input
 pairs = [
     [
-        r"my name is (.*)",
+        r"(?:(.*)) name is (?:(.*))?",
         ["Hello %1, How are you today?",]
     ],
     [
