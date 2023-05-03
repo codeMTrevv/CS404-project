@@ -1,0 +1,52 @@
+{"intents": [
+    {"tag": "greetings", 
+    "patterns": ["Hello!","hey","hi","good day","Greetings", "What's up?", "How is it going?"],
+    "responses":["Hello","hey", "What can i do for you?"]
+    },
+    {"tag": "goodbye", 
+    "patterns": ["cya","See you later","Goodbye","I am leaving","Have a good day", "Bye", "See ya"],
+    "responses":["Sad to see you go","Bye for now", "See you around","GoodBye"]
+    },
+    {"tag": "name", 
+    "patterns": ["What is your name?","What should i call you?","What's your name?","Who are you?","Can you tell me your name?"],
+    "responses":["My name is Giddeon and i dont have a age.","name is giddeon and i was created in 2023"]
+    },
+    {"tag": "Creator", 
+    "patterns": ["Who created you?","Who made you?","What's the name of the person that created you?","Who were you programmed by?"],
+    "responses":["I was created by Trevlon a programmer with made skills that are yet to be unlocked."]
+    },
+    {"tag": "thanks", 
+    "patterns": ["Thanks","Thank you","That was helpful","Thanks for helping me","you're great!", "Awesome, thanks", "you were great help"],
+    "responses":["Any time","Glad to be of assistance", "My pleasure","you're welcome!"]
+    },
+    {"tag": "noanswer", 
+    "patterns": [""],
+    "responses":["Sorry i can't understand you","Please give me more info", "Not sure i understood what you entered."]
+    },
+    {"tag": "Options", 
+    "patterns": ["How can you help me?","what can you do?","what help can you provide?","How can you be helpful?","What support is offered"],
+    "responses":["I am a general purpose chatbot. My capabilities are : \n1. I can chat with you. Try asking me for jokes or riddles! \n 2. Ask me the date and time \n 3. I can google search for you. Use format google: your query \n 4. I can get the present weather for any city. Use format weather: city name"]
+    },
+    {"tag": "jokes", 
+    "patterns": ["Tell me a joke","Joke","Make me laugh"],
+    "responses":["A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+    "I ate a clock yesterday, it was very time-consuming",
+    "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+    "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+    "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+    "What did the traffic light say to the car? \nDon't look now, I'm changing.",
+    "What do you call a snowman with a suntan? A puddle.",
+    "How does a penguin build a house? Igloos it together",
+    "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+    "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+    "o what if I don't know what 'Armageddon' means? It's not the end of the world."]
+    },
+    {"tag": "haha", 
+    "patterns": ["haha","lol","That was funny","rolf","lmao", "thats funny"],
+    "responses": ["Glad i could make you laugh"]
+    },
+    {"tag": "activities", 
+    "patterns": ["What are you doing?","What you up to?"],
+    "responses":["Talking to one of my best buds of course!"]
+    }
+]}
